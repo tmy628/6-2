@@ -1,10 +1,19 @@
-// 変数を利用する場合には、それぞれの文字列を変数に格納して結合させる
-// var 変数名 = 内容 ;
+var orange = 100;
+var apple = 120;
 
-var str1 = 'Hello';
-var str2 = 'World!!';
-alert(str1 + str2);
+if(orange < apple){
+  alert('みかんの値段がりんごより安い');
+} else if(orange == apple){
+  alert('みかんとりんごが同じ値段');
+} else{
+  alert('みかんの値段がりんごより高い');
+}
 
-// 文字列と文字列を結合するには、+記号を使う
-// alert('Hello' + 'World');
-// 「Hello」と「World」の文字列が結合されて、 HelloWorld と表示される
+// if(条件1){
+//   処理1
+// } else if(条件2){
+//   処理2
+// } else{
+//   処理3
+// }
+// 条件1を満たすときは処理1、条件2を満たすときは処理2、どちらも満たさないときは処理3を実行

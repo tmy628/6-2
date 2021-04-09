@@ -1,19 +1,17 @@
-var orange = 100;
-var apple = 120;
+var max = 100;
+var num = 1;
+var count = 0;
+// var 変数名 = 内容 ;
 
-if(orange < apple){
-  alert('みかんの値段がりんごより安い');
-} else if(orange == apple){
-  alert('みかんとりんごが同じ値段');
-} else{
-  alert('みかんの値段がりんごより高い');
+while(num < max){
+  num = num * 2;
+  count = count + 1;
 }
 
-// if(条件1){
-//   処理1
-// } else if(条件2){
-//   処理2
-// } else{
-//   処理3
+alert('2を掛け続けて' + max + 'を超えるのに必要だった回数は' + count + '回です');
+
+// 引数の条件がtrueの間、波括弧内部の処理が繰り返される。
+
+// while(条件){
+// 処理
 // }
-// 条件1を満たすときは処理1、条件2を満たすときは処理2、どちらも満たさないときは処理3を実行
